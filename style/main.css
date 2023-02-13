@@ -1,0 +1,179 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+header .container{
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* overflow: hidden;     */
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('https://www.themoviedb.org/t/p/original/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg');
+    font-size:16px;
+
+    background-size:cover;
+    height:400px;
+ 
+
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.item {
+    position: relative;
+}
+
+/* .item .titulo{
+    position: absolute;
+    top: 2%;
+    left: 25%;
+    text-align: center;
+}
+
+.item .titulo a{
+    text-decoration: none;
+    color: rgb(214, 231, 57);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.item .titulo a:hover{
+    font-weight: 700;
+    font-size: 19px; 
+    color: #fff; 
+} */
+
+.buttons {
+    position: absolute;
+    /* visibility: hidden; */
+    opacity: 0;
+    top: 80%;
+    left: calc(50% - 100px);
+    width: 
+}
+
+.buttons button{
+    padding:10px 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.item:hover .buttons {
+    visibility: visible;
+    opacity: 1;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
