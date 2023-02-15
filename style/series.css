@@ -38,16 +38,17 @@
     /* color: var(--nav-a-font-hover); */
 }
 
-.container__filme {
+.container__serie {
     margin-bottom: 5%;
     margin-left: 5%;
     position: relative;
 }
 
-.container__filme h1 {
+.container__serie h1 {
     position: absolute;
     margin: 100px 0px 0 30px;
 }
+
 
 .container__info{
     margin-left: 5%;
