@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 
-/*elementos base*/
 body{
    background: var(--preta);
    font-family: 'Arial', Times, serif;
@@ -22,7 +21,6 @@ header .container{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    /* overflow: hidden;     */
 }
 
 header .logo{
@@ -43,15 +41,11 @@ header nav a:hover{
     color:#fff;
 }
 
-/*filme principal*/
 .filme-principal{
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('https://www.themoviedb.org/t/p/original/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg');
     font-size:16px;
-
     background-size:cover;
     height:400px;
- 
-
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -75,11 +69,9 @@ header nav a:hover{
     background-color: rgba(0,0,0,.50);
     border:none;
     color: white;
-
     padding:15px 30px;
     margin-right: 15px;
     font-size: 12px;
-
     cursor: pointer;
     transition: .3s ease all;
 }
@@ -106,34 +98,11 @@ header nav a:hover{
     position: relative;
 }
 
-/* .item .titulo{
-    position: absolute;
-    top: 2%;
-    left: 25%;
-    text-align: center;
-}
-
-.item .titulo a{
-    text-decoration: none;
-    color: rgb(214, 231, 57);
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.item .titulo a:hover{
-    font-weight: 700;
-    font-size: 19px; 
-    color: #fff; 
-} */
-
 .buttons {
     position: absolute;
-    /* visibility: hidden; */
     opacity: 0;
     top: 80%;
     left: calc(50% - 100px);
-    width: 
 }
 
 .buttons button{

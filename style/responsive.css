@@ -1,7 +1,43 @@
-@media screen and (max-width:700px){
+@media screen and (max-width:580px){
+    .item .buttons{
+        opacity: 1;
+        visibility: visible;
+        top: 90%;
+        left: calc(50% - 130px);
+    }
+    .item .buttons a button{
+        width: 300px;
+    }
+
+    .container__trailer iframe{
+        width: 320px;
+    }
+
+    .container__navegacao{
+        visibility:hidden;
+    }
+
+    .container__navegacao .home{
+        visibility:visible;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:580px){
     header .container{
     display: flex;
     flex-direction: column;
+    }
+
+    .item .buttons{
+        opacity: 1;
+        visibility: visible;
+        top: 65%;
+        left: calc(50% - 80px);
+    }
+
+    .item .buttons a button{
+        width: 150px;
     }
 
     .botao{
@@ -15,7 +51,7 @@
 
     .container__navegacao .home{
         visibility:visible;
-        margin-left: 100px;
+        margin-left: 200px;
     }
 
     .container__trailer iframe{
