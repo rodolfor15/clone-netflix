@@ -10,12 +10,16 @@
     }
 
     .container__navegacao{
-        display: none;
+        visibility:hidden;
+    }
+
+    .container__navegacao .home{
+        visibility:visible;
+        margin-left: 5%;
     }
 
     .container__trailer iframe{
         width: 320px;
-        background-color: aqua;
     }
 
 }
