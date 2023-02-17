@@ -59,6 +59,10 @@
     margin: 2% 0 1% 0;
 }
 
+#sobre {
+    color: transparent;
+ }
+
 .container__trailer {
     margin-left: 5%;
 }

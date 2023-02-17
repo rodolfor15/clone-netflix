@@ -9,6 +9,15 @@
         width: 300px;
     }
 
+    .container__navegacao{
+        display: none;
+    }
+
+    .container__trailer iframe{
+        width: 320px;
+        background-color: aqua;
+    }
+
 }
 
 @media screen and (min-width:1000px){
